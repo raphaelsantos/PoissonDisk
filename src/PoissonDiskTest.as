@@ -17,6 +17,11 @@ package
 			poisson.minRadius = 3;
 			poisson.maxRadius = 30;
 			
+			poisson.minDistance = 2;
+			poisson.spread = 5;
+			poisson.maxTries = 5000;
+			
+			
 			
 			var poissonArea:Rectangle = new Rectangle(0,0, 550, 400);
 			var points:Vector.<PoissonPoint> = poisson.createPoissonPoints(poissonArea, 3000);

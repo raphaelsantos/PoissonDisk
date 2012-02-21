@@ -8,7 +8,7 @@ package
 
 		
 		public var minDistance:Number = 5;
-		public var maxTries:Number = 30000;
+		public var maxTries:Number = 10000;
 		public var spread:Number = 0;
 		
 		public var minRadius:Number = 10;
